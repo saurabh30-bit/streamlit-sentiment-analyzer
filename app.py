@@ -22,6 +22,7 @@ if st.button("Analyze Sentiment"):
         with st.spinner("Analyzing..."):
             # Perform NLP sentiment analysis
             blob = TextBlob(user_input)
+            # Added small refactor for future extension
             sentiment_score = blob.sentiment.polarity
             subjectivity_score = blob.sentiment.subjectivity
             

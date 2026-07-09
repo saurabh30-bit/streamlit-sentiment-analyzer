@@ -34,3 +34,7 @@ A modern, interactive web application built with Python and Streamlit that perfo
    ```bash
    streamlit run app.py
    ```
+
+## Future Roadmap
+- Integrate custom fine-tuned transformer models in the \models\ directory.
+
